@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" /> <item
+        android:id="@+id/nav_compass_altitude"
+        android:icon="@drawable/ic_compass"
+        android:title="@string/menu_compass_altitude" />
+        <item
+            android:id="@+id/nav_gps_tracking"
+            android:icon="@drawable/ic_path"
+            android:title="GPS Path Tracking" />
+        <item
+            android:id="@+id/nav_offline_map"
+            android:icon="@drawable/ic_map"
+            android:title="Offline Map &amp; Waypoints" />
+        <item
+            android:id="@+id/nav_sunrise_sunset"
+            android:icon="@drawable/ic_sun"
+            android:title="Sunrise &amp; Sunset" />
+    </group>
+
+    <item android:title="Safety &amp; Emergency">
+        <menu>
+            <item
+                android:id="@+id/nav_silent_sos"
+                android:icon="@drawable/ic_sos"
+                android:title="Silent SOS Trigger" />
+            <item
+                android:id="@+id/nav_intrusion_detection"
+                android:icon="@drawable/ic_intruder"
+                android:title="Intrusion Detection" />
+            <item
+                android:id="@+id/nav_sos_signals"
+                android:icon="@drawable/ic_flashlight"
+            android:title="SOS Light &amp; Sound" />
+            <item
+                android:id="@+id/nav_stealth_mode"
+                android:icon="@drawable/ic_stealth"
+                android:title="Stealth Mode" />
+        </menu>
+    </item>
+
+    <item android:title="Utilities">
+        <menu>
+            <item
+                android:id="@+id/nav_battery_saver"
+                android:icon="@drawable/ic_battery"
+                android:title="Battery Saver" />
+            <item
+                android:id="@+id/nav_sensor_check"
+                android:icon="@drawable/ic_sensor"
+                android:title="Sensor Check" />
+            <item
+                android:id="@+id/nav_step_counter"
+                android:icon="@drawable/ic_steps"
+                android:title="Step Counter" />
+            <item
+                android:id="@+id/nav_weather_snapshot"
+                android:icon="@drawable/ic_weather"
+                android:title="Weather Snapshot" />
+            <item
+                android:id="@+id/nav_magnetic_strength"
+                android:icon="@drawable/ic_magnet"
+                android:title="Magnetic Field Strength" />
+            <item
+                android:id="@+id/nav_survival_guide"
+                android:icon="@drawable/ic_book"
+                android:title="Offline Survival Guide" />
+        </menu>
+    </item>
+
+    <item android:title="Connectivity">
+        <menu>
+            <item
+                android:id="@+id/nav_bluetooth_scanner"
+                android:icon="@drawable/ic_bluetooth_scan"
+                android:title="BT Device Scanner" />
+            <item
+                android:id="@+id/nav_p2p_messaging"
+                android:icon="@drawable/ic_chat"
+                android:title="P2P Messaging" />
+        </menu>
+    </item>
+</menu>

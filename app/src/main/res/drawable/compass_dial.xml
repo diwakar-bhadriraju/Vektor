@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Circle -->
+    <path
+        android:fillColor="#222222"
+        android:pathData="M100,0 A100,100 0 1,1 99.9,0 Z" />
+
+    <!-- N/E/S/W Tick Markers (rectangles) -->
+    <group android:pivotX="100" android:pivotY="100">
+
+        <!-- Top - North (Red) -->
+        <group android:rotation="0">
+            <path
+                android:fillColor="#D32F2F"
+                android:pathData="M97,10 L103,10 L103,30 L97,30 Z" />
+        </group>
+
+        <!-- Right - East (White) -->
+        <group android:rotation="90">
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M97,10 L103,10 L103,30 L97,30 Z" />
+        </group>
+
+        <!-- Bottom - South (White) -->
+        <group android:rotation="180">
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M97,10 L103,10 L103,30 L97,30 Z" />
+        </group>
+
+        <!-- Left - West (White) -->
+        <group android:rotation="270">
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M97,10 L103,10 L103,30 L97,30 Z" />
+        </group>
+    </group>
+</vector>
