@@ -82,7 +82,7 @@ To get a copy of the project up and running on your local machine for developmen
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/diwakar-bhadriraju/Vektor.git](https://github.com/diwakar-bhadriraju/Vektor.git)
+    git clone https://github.com/diwakar-bhadriraju/Vektor.git
     cd Vektor
     ```
     (Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username, and ensure `Vektor.git` matches your repository name if you've renamed it on GitHub.)
@@ -131,7 +131,7 @@ Distributed under the MIT License. See `LICENSE` for more information. (You migh
 
 ## 📧 Contact
 
-Your Name - [Your GitHub Profile Link](https://github.com/diwakar-bhadriraju)
-Project Link: [https://github.com/diwakar-bhadriraju/Vektor](https://github.com/diwakar-bhadriraju/Vektor)
+Diwakar Bhadriraju - https://github.com/diwakar-bhadriraju
+Project Link: https://github.com/diwakar-bhadriraju/Vektor
 
 ---
